@@ -1,0 +1,42 @@
+site_name: Querido Diário - Documentação
+
+copyright: "Copyright &copy; 2024 Wildemberg Sales"
+
+theme:
+  name: material
+  language: "pt"
+  palette:
+    primary: orange
+    accent: green
+  features:
+    - navigation.tabs
+  font:
+    text: "Open Sans"
+    code: "sans-serif"
+  # logo: assets/logo.png
+  # favicon: assets/logo.png
+
+
+nav:
+  - Início: 'index.md'
+#- Planejamento:
+ # - Metodologia: '#'
+  #- Ferramentas: '#'
+#- Elicitação de Requisitos:
+#- Perfil de usuário: '#'
+#- Brainstorm: 
+#  - Pesquisa de Campo (formulário): '#'
+#  - Priorização:
+#    - In or Out: '#'
+#  - Modelagem de requisitos:
+#    - Casos de Uso: '#'
+#    - User Story: '#'
+#    - Backlog: '#'
+#- Prototipagem:
+#  - Baixa Fidelidade: '#'
+#  - Alta Fidelidade: '#'
+#- Arquitetura do Software:
+#  - Diagrama de classe: '#'
+#  - Diagrama de pacotes: '#'
+#  - Representação Arquitetural: '#'
+#  - Banco de dados: '#'
