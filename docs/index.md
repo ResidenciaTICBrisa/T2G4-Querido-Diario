@@ -14,7 +14,8 @@ A seguir temos a lista de repositórios utilizados pelo time de desenvolvimento 
 | Foto | Nome | Github | Email |
 | :--: | :--: | :----: | :---: |
 | | Arthur Ferreira | [ArthurFerreiraRodrigues](https://github.com/ArthurFerreiraRodrigues) | arthur.250402@gmail.com |
-| <img src="./images/ester.jpg" width="200px" /> | Ester Lino | [esteerlino](https://github.com/esteerlino) | esteerlino@gmail.com |
 | <img src="./images/cristian.jpeg" width="200px" />  | Cristian Furtado | [csafurtado](https://github.com/csafurtado) | cristiansafurtado@gmail.com |
+| <img src="./images/ester.jpg" width="200px" /> | Ester Lino | [esteerlino](https://github.com/esteerlino) | esteerlino@gmail.com |
+| | Pedro Cabeceira | [pkbceira03](https://github.com/pkbceira03) | cabeceira2003@gmail.com |
 | | Raissa Oliveira | [raissamsoliveira](https://github.com/raissamsoliveira) | raissa.menezesousa@gmail.com |
 | <img src="./images/will.jpeg" width="200px" /> | Wildemberg Sales | [wildemberg-sales](https://github.com/wildemberg-sales) | wildemberg.sales.junior@gmail.com | 
