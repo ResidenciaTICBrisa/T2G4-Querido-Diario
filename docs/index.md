@@ -1,6 +1,6 @@
 # Grupo Querido Diário
 
-<img src="./images/logo-querido-diario.jpeg" />
+<img src="./images/mascote.png" />
 
 Este repositório é destinado a documentação do processo de evolução de software do projeto de código aberto [Querido Diário](https://queridodiario.ok.org.br/).  
 A seguir temos a lista de repositórios utilizados pelo time de desenvolvimento para a evolução deste software:
