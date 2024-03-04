@@ -18,25 +18,29 @@ theme:
 
 
 nav:
-  - Início: 'index.md'
-#- Planejamento:
- # - Metodologia: '#'
-  #- Ferramentas: '#'
-#- Elicitação de Requisitos:
-#- Perfil de usuário: '#'
-#- Brainstorm: 
-#  - Pesquisa de Campo (formulário): '#'
-#  - Priorização:
-#    - In or Out: '#'
-#  - Modelagem de requisitos:
-#    - Casos de Uso: '#'
-#    - User Story: '#'
-#    - Backlog: '#'
-#- Prototipagem:
-#  - Baixa Fidelidade: '#'
-#  - Alta Fidelidade: '#'
-#- Arquitetura do Software:
-#  - Diagrama de classe: '#'
-#  - Diagrama de pacotes: '#'
-#  - Representação Arquitetural: '#'
-#  - Banco de dados: '#'
+  - Início: index.md
+  - Atas de Reunião:
+    - Ata 04/03/2024: atas-reuniao/ata-04-03-2024.md
+  - Planejamento:
+    - Metodologia: index.md
+    - Ferramentas: index.md
+    - Cronograma: index.md
+    - HeatMap: index.md
+  - Elicitação de Requisitos:
+    - Perfil de usuário: index.md
+    - Brainstorm: index.md
+    - Pesquisa de Campo (formulário): index.md
+  - Priorização:
+    - In or Out: index.md
+  - Modelagem de requisitos:
+    - Casos de Uso: index.md
+    - User Story: index.md
+    - Backlog: index.md
+  - Prototipagem:
+    - Baixa Fidelidade: index.md
+    - Alta Fidelidade: index.md
+  - Arquitetura do Software:
+    - Diagrama de classe: index.md
+    - Diagrama de pacotes: index.md
+    - Representação Arquitetural: index.md
+  - Banco de dados: index.md
