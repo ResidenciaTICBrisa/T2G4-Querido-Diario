@@ -6,21 +6,20 @@ theme:
   name: material
   language: "pt"
   palette:
-    primary: orange
-    accent: green
+    primary: #5e408f 
+    accent: #ff8500
   features:
     - navigation.tabs
-  font:
-    text: "Open Sans"
-    code: "sans-serif"
-  # logo: assets/logo.png
-  # favicon: assets/logo.png
 
+  text: "Open Sans"
+  code: "sans-serif"
+  logo: assets/images/logo.png
+  #favicon: assets/images/logo2.png
 
 nav:
   - Início: index.md
   - Atas de Reunião:
-    - Ata 04/03/2024: atas-reuniao/ata-04-03-2024.md
+    - Reunião 01: atas-reuniao/ata-04-03-2024.md
   - Planejamento:
     - Metodologia: index.md
     - Ferramentas: index.md
