@@ -14,17 +14,20 @@ theme:
   text: "Open Sans"
   code: "sans-serif"
   logo: assets/images/logo.png
-  #favicon: assets/images/logo2.png
+  favicon: assets/images/favicon.ico
 
 nav:
   - Início: index.md
   - Atas de Reunião:
-    - Reunião 01: atas-reuniao/ata-04-03-2024.md
+    - Reunião 01: atas-reuniao/reuniao1.md
   - Planejamento:
     - Metodologia: index.md
     - Ferramentas: index.md
     - Cronograma: index.md
     - HeatMap: index.md
+  - Sprints: 
+    - Sprint 01: sprints/sprint1.md
+    - Sprint 02: sprints/sprint2.md
   - Elicitação de Requisitos:
     - Perfil de usuário: index.md
     - Brainstorm: index.md

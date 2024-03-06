@@ -35,7 +35,7 @@
 | --- | -------------------- | --------------- | 
 | 1   | Estudo de FastAPI      | Todos         |
 | 2   | Estudo das ferramentas | Todos         |
-| 3   | Participar do onboarding oferecido pelo cliente no dia 12/03 | Ester, Arthur e Willdemberg  |
+| 3   | Participar do onboarding oferecido pelo cliente no dia 12/03 | Ester, Arthur e Wildemberg  |
 
 ### **7. Gravação**
 
