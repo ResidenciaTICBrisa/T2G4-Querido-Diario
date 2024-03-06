@@ -1,7 +1,7 @@
 # Grupo Querido Diário
 
 <p align="center">
-  <img src="./docs/images/mascote.png" width="200px" />
+  <img src="./docs/assets/images/mascote.png" width="200px" />
 </p>
 
 Este repositório é destinado a documentação do processo de evolução de software do projeto de código aberto [Querido Diário](https://queridodiario.ok.org.br/).  
@@ -21,7 +21,7 @@ A seguir temos a lista de repositórios utilizados pelo time de desenvolvimento 
 |     <img src="./docs/assets/images/ester.jpg" width="200px" />      |    Ester Lino    |              [esteerlino](https://github.com/esteerlino)              |       esteerlino@gmail.com        |
 |                                                              | Pedro Cabeceira  |              [pkbceira03](https://github.com/pkbceira03)              |      cabeceira2003@gmail.com      |
 |    <img src="./docs/assets/images/raissa.jpeg" width="200px" />     | Raissa Oliveira  |        [raissamsoliveira](https://github.com/raissamsoliveira)        |   raissa.menezesousa@gmail.com    |
-|     <img src="./docs/assests/images/will.jpeg" width="200px" />      | Wildemberg Sales |        [wildemberg-sales](https://github.com/wildemberg-sales)        | wildemberg.sales.junior@gmail.com |
+|     <img src="./docs/assets/images/will.jpeg" width="200px" />      | Wildemberg Sales |        [wildemberg-sales](https://github.com/wildemberg-sales)        | wildemberg.sales.junior@gmail.com |
 
 ## Trabalhando com o MkDocs
 
