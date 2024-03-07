@@ -19,7 +19,7 @@ A seguir temos a lista de repositórios utilizados pelo time de desenvolvimento 
 | <img src="./docs/assets/images/arthur-profile.jpg" width="200px" /> | Arthur Ferreira  | [ArthurFerreiraRodrigues](https://github.com/ArthurFerreiraRodrigues) |      arthur.250402@gmail.com      |
 |   <img src="./docs/assets/images/cristian.jpeg" width="200px" />    | Cristian Furtado |       [csafurtado](htwidth="200px"tps://github.com/csafurtado)        |    cristiansafurtado@gmail.com    |
 |     <img src="./docs/assets/images/ester.jpg" width="200px" />      |    Ester Lino    |              [esteerlino](https://github.com/esteerlino)              |       esteerlino@gmail.com        |
-|                                                              | Pedro Cabeceira  |              [pkbceira03](https://github.com/pkbceira03)              |      cabeceira2003@gmail.com      |
+|<img src="./docs/assets/images/pedro.jpeg" width="200px" />| Pedro Cabeceira  |              [pkbceira03](https://github.com/pkbceira03)              |      cabeceira2003@gmail.com      |
 |    <img src="./docs/assets/images/raissa.jpeg" width="200px" />     | Raissa Oliveira  |        [raissamsoliveira](https://github.com/raissamsoliveira)        |   raissa.menezesousa@gmail.com    |
 |     <img src="./docs/assets/images/will.jpeg" width="200px" />      | Wildemberg Sales |        [wildemberg-sales](https://github.com/wildemberg-sales)        | wildemberg.sales.junior@gmail.com |
 
