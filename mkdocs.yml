@@ -20,6 +20,7 @@ nav:
   - Início: index.md
   - Atas de Reunião:
     - Reunião 01: atas-reuniao/reuniao1.md
+    - Reunião 02: atas-reuniao/reuniao2.md
   - Planejamento:
     - Metodologia: index.md
     - Ferramentas: index.md
@@ -28,6 +29,7 @@ nav:
   - Sprints: 
     - Sprint 01: sprints/sprint1.md
     - Sprint 02: sprints/sprint2.md
+    - Sprint 03: sprints/sprint3.md
   - Elicitação de Requisitos:
     - Perfil de usuário: index.md
     - Brainstorm: index.md
