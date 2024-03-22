@@ -22,27 +22,22 @@ A seguir temos a lista de repositórios utilizados pelo time de desenvolvimento 
 | <img src="./docs/imagens/ester.jpg" width="150px" /> | Ester Lino | [esteerlino](https://github.com/esteerlino) | esteerlino@gmail.com |
 | <img src="./docs/imagens/pedro.webp" width="150px" /> | Pedro Cabeceira | [pkbceira03](https://github.com/pkbceira03) | cabeceira2003@gmail.com |
 | <img src="./docs/imagens/raissa.webp" width="150px" />| Raissa Oliveira | [raissamsoliveira](https://github.com/raissamsoliveira) | raissa.menezesousa@gmail.com |
-| <img src="./docs/imagens/will.jpeg" width="150px" /> | Wildemberg Sales | [wildemberg-sales](https://github.com/wildemberg-sales) | wildemberg.sales.junior@gmail.com | 
+| <img src="./docs/imagens/will.jpeg" width="150px" /> | Wildemberg Sales | [wildemberg-sales](https://github.com/wildemberg-sales) | wildemberg.sales.junior@gmail.com |
 
-## Trabalhando com o MkDocs
+## Como Executar
 
-O MkDocs é utilizado para a documentação interna do grupo sobre o trabalho no projeto Querido Diário. Abaixo estão as instruções para instalação e os prováveis comandos que você pode ter que usar ao trabalhar com MkDocs.
-
-### Instalação
-
-Além do MkDocs, é utilizado um tema baseado no Material Design, o MkDocs Material. Portanto, ele também será necessário ser instalado.
-
-Para instalar o MkDocs e o MkDocs Material, você precisará do Python e do pip. Com esses dois instalados, você pode rodar o seguinte comando:
-
-```bash
-pip install mkdocs mkdocs-material
+### 1. Instale o pacote que usamos para documentação ([docsify](https://docsify.js.org/))
+```
+npm i docsify-cli -g
 ```
 
-### Comandos
+### 2. Execute a documentação
+```
+docsify serve ./docs
+```
 
-- `mkdocs serve` - Inicia o servidor de documentação com live-reload.
-- `mkdocs build` - Gera a documentação estática.
+### 3. Acesse a aplicação no seu navegador
 
-#### Deploy
+## Encerrando a Execução
 
-Não é necessário realizar o deploy manualmente, pois o deploy é feito automaticamente pelo GitHub Actions. A cada push na branch `master`, o GitHub Actions gera a documentação estática e a publica na branch `gh-pages`. A documentação estática pode ser acessada [aqui](https://residenciaticbrisa.github.io/T2G4-Querido-Diario/).
+Para encerrar a execução da aplicação, você pode pressionar Ctrl + C no terminal onde está sendo executado.
