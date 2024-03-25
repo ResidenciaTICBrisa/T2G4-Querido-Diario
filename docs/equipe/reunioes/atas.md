@@ -1,7 +1,5 @@
 # Atas de reuniões
 
-## **Guia de Contribuição**
-
 As reuniões são fatores importantes para o seguimento e acompanhamento das Sprints, e podem ter diferentes objetivos, como: 
 - **Reunião com o Cliente:** essas reuniões visam, principalmente, o alinhamento de expectativas com o cliente, bem como os processos iniciais do projeto, como reuniões de onboarding e acompanhamento. 
 - **Reunião de Planejamento da Sprint (Planning):** conduzidas antes de cada Sprint, com tempo fixo de uma hora para cada semana de duração da Sprint. Essa reunião atende dois principais pontos: Definição do objetivo e Identificação e Estimativa de Tarefas. 
@@ -56,8 +54,12 @@ Sendo assim, para o Projeto do Querido Diário, as nossas reuniões seguem um pr
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Iwk7SDnu6O4&list=PLzc7_ULvysmaWqXep2_gHKyNE7AExAZae&index=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## **Heatmap do time**
+
+<img src="./imagens/heatmap.png"/> 
+
 ## Histórico de Versão
 
 | Versão |    Data    |                 Descrição                 |        Responsáveis          |       Revisor        |
 | :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
-|  1.0   |            |                                           |                              |                      |
+|  1.0   | 25/03/2024  | Criação da documentação sobre Reuniões   | [Raissa Oliveira](https://github.com/raissamsoliveira)                           |    [Ester Lino](https://github.com/esteerlino)  
