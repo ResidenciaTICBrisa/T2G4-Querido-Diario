@@ -2,9 +2,9 @@
 
 **Visão Geral**
 
-- [Visão Geral do Produto](/visao_geral/visao-geral-produto.md)
-- [Arquitetura do Software](/concepcao/arquitetura-software.md)
-- [Dados Necessários](/concepcao/dados-necessarios.md)
+- [Visão Geral do Produto](/visao_geral/visao_geral_produto.md)
+- [Arquitetura do Software](/concepcao/arquitetura_software.md)
+- [Dados Necessários](/concepcao/dados_necessarios.md)
 
 **Produto**
 

@@ -36,7 +36,7 @@
 | --- | -------------------- | --------------- | 
 | 1   | Estudo da Documentação      | Todos         |
 | 2   | Estudo das ferramentas | Todos         |
-| 3   | Aguardar o Giulio enviar os arquivos que prometeu na reunião |
+| 3   | Aguardar o Giulio enviar os arquivos que prometeu na reunião | Cliente |
 
 ### **7. Gravação**
 
