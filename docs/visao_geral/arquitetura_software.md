@@ -20,6 +20,11 @@ Uma vez que os registros estão no OpenSearch, a API consegue buscar por eles. A
 
 ### **Jornada do Dado**
 
+O processo de deduzir a **Jornada do Dado** envolve entender e mapear como os dados se movem e são processados em um sistema ou aplicação, desde sua origem até seu destino final, o que geralmente envolve identificar todas as etapas pelas quais os dados passam, as transformações que sofrem e as interações com diferentes componentes do sistema ao longo do caminho.
+
+Esta jornada pode incluir várias etapas, como coleta, processamento, armazenamento, análise, visualização e distribuição. O objetivo é compreender como os dados são criados ou capturados, como são manipulados e transformados ao longo do tempo e como são usados para fornecer valor ou insights para os usuários finais. Ao deduzir a jornada do dado, os profissionais podem identificar possíveis pontos de falha, gargalos de desempenho, oportunidades de otimização e requisitos de segurança. Isso ajuda a garantir que os dados sejam gerenciados de forma eficiente, confiável e segura em todo o ciclo de vida da informação.
+
+Sendo assim, a Jornada do Dado dentro do projeto do Querido Diário está representada na imagem abaixo: 
 ____________________________________________________________________________________________________________
 <img src="./imagens/fluxo_dados2.png"/>
 
