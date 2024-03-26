@@ -43,6 +43,6 @@
 
 ## Histórico de Versão
 
-| Versão |    Data    |                 Descrição                 |                                         Responsáveis                                         |                     Revisor                     |
+| Versão |    Data    |                 Descrição                 |        Responsáveis          |       Revisor        |
 | :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
-|  1.0   | 06/03/2024 |      Adicionando o padrão das atas e a ata da reunião 01       |                           [Ester Lino](https://github.com/esteerlino)                           |    [Arthur Ferreira](https://github.com/ArthurFerreiraRodrigues)    |
+|  1.0   | 06/03/2024  | Adicionando o padrão das atas e a ata da reunião 01    | [Ester Lino](https://github.com/esteerlino)                           |    [Arthur Ferreira](https://github.com/ArthurFerreiraRodrigues) |

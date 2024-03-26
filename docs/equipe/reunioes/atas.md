@@ -62,4 +62,4 @@ Sendo assim, para o Projeto do Querido Diário, as nossas reuniões seguem um pr
 
 | Versão |    Data    |                 Descrição                 |        Responsáveis          |       Revisor        |
 | :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
-|  1.0   | 25/03/2024  | Criação da documentação sobre Reuniões   | [Raissa Oliveira](https://github.com/raissamsoliveira)                           |    [Ester Lino](https://github.com/esteerlino)  
+|  1.0   | 25/03/2024  | Criação da documentação sobre Reuniões   | [Raissa Oliveira](https://github.com/raissamsoliveira)                           |    [Ester Lino](https://github.com/esteerlino) |

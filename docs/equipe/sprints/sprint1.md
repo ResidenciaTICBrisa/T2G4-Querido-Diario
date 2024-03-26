@@ -17,6 +17,6 @@
 
 ## Histórico de versão
 
-| Data | Descrição | Autor(es) | Revisor(es) |
-|--------|-------------|--------------|---------------|
-| 06/03/2024 | Criação da estrutura do documento | [Ester Lino](https://github.com/esteerlino)  | [Wildemberg Sales](https://github.com/wildemberg-sales) |
+| Versão |    Data    |                 Descrição                 |        Responsáveis          |       Revisor        |
+| :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
+|  1.0   | 06/03/2024  | Criação da estrutura do documento | [Ester Lino](https://github.com/esteerlino)                           |    [Wildemberg Sales](https://github.com/wildemberg-sales) |

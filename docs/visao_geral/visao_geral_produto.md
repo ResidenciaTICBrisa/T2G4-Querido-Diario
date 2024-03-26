@@ -10,3 +10,9 @@ Para este projeto foi proposto o desenvolvimento de rotinas de processamento de 
 | ------------------------- | -------------------------------------------------------------------- |
 |   **Como Jornalista**     | Conseguir realizar o download dos resultados da busca realizada na plataforma web do Querido Diário para sistematizar o processo de apuração de reportagens |
 |  **Como Pesquisador(a)**  | Conseguir realizar o download dos textos completos dos diários oficiais, para realizar meus próprios recortes e processamentos de forma transversal |
+
+## Histórico de Versão
+
+| Versão |    Data    |                 Descrição                 |                                         Responsáveis                                         |                     Revisor                     |
+| :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
+|  1.0   | 25/03/2024 |     Criação da página sobre "Visão Geral do Produto"     |    [Raissa Oliveira](https://github.com/raissamsoliveira)            |    [Ester Lino](https://github.com/esteerlino)    |

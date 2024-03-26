@@ -44,6 +44,6 @@
 
 ## Histórico de Versão
 
-| Versão |    Data    |                 Descrição                 |                                         Responsáveis                                         |                     Revisor                     |
+| Versão |    Data    |                 Descrição                 |        Responsáveis          |       Revisor        |
 | :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
-|  1.0   | 12/03/2024 |      Adicionando a ata da reunião 02       |                           [Raissa Oliveira](https://github.com/raissamsoliveira)                           |    [Ester Lino](https://github.com/esteerlino)    |
+|  1.0   | 12/03/2024  | Adicionando a ata da reunião 02    | [Raissa Oliveira](https://github.com/raissamsoliveira)   |    [Ester Lino](https://github.com/esteerlino)  |
