@@ -4,14 +4,15 @@
 
 - [Visão Geral do Produto](/visao_geral/visao_geral_produto.md)
 - [Arquitetura do Software](/visao_geral/arquitetura_software.md)
-- [Dados Necessários](/visao_geral/dados_necessarios.md)
+<!--- [Dados Necessários](/visao_geral/dados_necessarios.md)-->
 
-**Produto**
+
+<!--**Produto**
 
 - [Backlog do Produto](/produto/backlog.md)
 - [Mínimo Produto Viável](/produto/mvp.md)
 - [Roadmap](/produto/roadmap.md)
-- [Protótipo Visual](/produto/prototipo-visual.md)
+- [Protótipo Visual](/produto/prototipo-visual.md)-->
 
 **Equipe**
 - [Sprints](/equipe/sprints/sprints.md)
@@ -22,6 +23,6 @@
     - [Ata 01](/equipe/reunioes/ata1.md)
     - [Ata 02](/equipe/reunioes/ata2.md)
 
-**Tópico Auxiliar**
+<!--**Tópico Auxiliar**
 
-- [Contributing](CONTRIBUTING.md)
+- [Contributing](CONTRIBUTING.md)-->
