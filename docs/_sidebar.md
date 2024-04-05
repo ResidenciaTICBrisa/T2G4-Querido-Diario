@@ -22,6 +22,7 @@
 - [Reuniões](/equipe/reunioes/atas.md)
     - [Ata 01](/equipe/reunioes/ata1.md)
     - [Ata 02](/equipe/reunioes/ata2.md)
+    - [Ata 03](/equipe/reunioes/ata3.md)
 
 <!--**Tópico Auxiliar**
 
