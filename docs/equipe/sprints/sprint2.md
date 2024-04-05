@@ -1,4 +1,4 @@
-# Sprint 2
+# Sprint 02
 
 - Data de início: 03/02/2024
 - Data de término: 09/02/2024
