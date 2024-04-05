@@ -34,10 +34,14 @@ ________________________________________________________________________________
 
 ### **Jornada do Dado na funcionalidade F1**
 
-A funcionalidade 1 trabalha a área do front-end, onde será necessário manipular dados que aparecem na página após o resultado de uma pesquisa, seja ela a página do Querido Diário Geral ou do Querido Diário Educação, transformando-os em arquivos .csv para download. A figura abaixo descreve melhor dentro da arquitetura geral do projeto a área de influência da funcionalidade.
+<p>A funcionalidade 1 trabalha a área do front-end, onde será necessário manipular dados que aparecem na página após o resultado de uma pesquisa, seja ela a página do Querido Diário Geral ou do Querido Diário Educação, transformando-os em arquivos .csv para download. A figura abaixo descreve melhor dentro da arquitetura geral do projeto a área de influência da funcionalidade.</p>
+<p>Para esta funcionalidade também foi criado um <a href="https://www.figma.com/file/PTRrSgLiz6DOlkYwA3Tt6Q/Prot%C3%B3tipo-para-a-p%C3%A1gina-%22Tecnologia-na-Educa%C3%A7%C3%A3o%22?type=design&node-id=0%3A1&mode=design&t=86esN6klke9ftwbL-1">protótipo no Figma</a> para a visualização da página, com participação do cliente.</p>
+
 
 <img src="./imagens/Fluxo-Us1-Us2.png"/>
 <h5 style="text-align: center; margin: 0 auto">Figura 2: Fluxo de dados da funcionalidade 1</h5>
+
+
 
 <!-- 
 
@@ -53,4 +57,5 @@ inserir o fluxo de dados da funcionalidade F@
 | Versão |    Data    |                 Descrição                 |                                         Responsáveis                                         |                     Revisor                     |
 | :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
 |  1.0   | 25/03/2024 |      Criação da página "Arquitetura do Querido Diário"       |    [Raissa Oliveira](https://github.com/raissamsoliveira)            |    [Ester Lino](https://github.com/esteerlino)    |
-|  1.1  | 25/03/2024 |  Adicionando o fluxo de dados da funcionalidade F1 e legenda das figuras  |    Cristian Furtado e Pedro Cabeceira          |    Wildemberg Sales   |
+|  1.1  | 04/04/2024 |  Adicionando o fluxo de dados da funcionalidade F1 e legenda das figuras  |    [Cristian Furtado](https://github.com/csafurtado) e [Pedro Cabeceira](https://github.com/pkbceira03)          |    [Wildemberg Sales](https://github.com/wildemberg-sales)   |
+|  1.2  | 05/04/2024 |  Adiciona informação e link sobre o protótipo do Figma da funcionalidade 1 |    [Cristian Furtado](https://github.com/csafurtado)          | [Raissa Oliveira](https://github.com/raissamsoliveira) |

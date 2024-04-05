@@ -36,4 +36,4 @@ Desta declaração, foram especificados quatro principais dores e pontos de melh
 | Versão |    Data    |                 Descrição                 |                                         Responsáveis                                         |                     Revisor                     |
 | :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
 |  1.0   | 25/03/2024 |     Criação da página sobre "Visão Geral do Produto"     |    [Raissa Oliveira](https://github.com/raissamsoliveira)            |    [Ester Lino](https://github.com/esteerlino)    |
-|  1.1  | 04/04/2024 |     Adicionando tópicos do produto e colocamos as funcionalidades    | Pedro Cabecera e Cristian |    Ester e Raissa   |
+|  1.1  | 04/04/2024 |     Adicionando tópicos do produto e colocamos as funcionalidades    | [Cristian Furtado](https://github.com/csafurtado) e [Pedro Cabeceira](https://github.com/pkbceira03) |    [Ester Lino](https://github.com/esteerlino) e [Raissa Oliveira](https://github.com/raissamsoliveira)   |

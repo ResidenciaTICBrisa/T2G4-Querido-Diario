@@ -16,4 +16,4 @@
 
 | Versão |    Data    |   Descrição   |       Responsáveis        |                     Revisor                     |
 | :----: | :--------: | :-----------: | :-----------------------: | :---------------------------------------------: |
-|  1.0   | 04/04/2024 | Adicionando documento da Sprint 5   | Pedro Cabeceira |  Cristian Furtado  |
+|  1.0   | 04/04/2024 | Adicionando documento da Sprint 5   | [Pedro Cabeceira](https://github.com/pkbceira03) |  [Cristian Furtado](https://github.com/csafurtado) |
