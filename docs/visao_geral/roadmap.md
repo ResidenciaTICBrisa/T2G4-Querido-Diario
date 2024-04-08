@@ -5,7 +5,7 @@ O Roadmap do Produto é um artefato de planejamento que descreve como o produto 
 Segue abaixo o roadmap da atuação do time de desenvolvimento BRISA do Querido Diário:
 
   <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVOlm4vs8=/?moveToViewport=-470,-3363,6023,2733&embedId=592248376332" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGAoQhT_Qs&#x2F;UmMFq-OqhjoX8WYMA3vunw&#x2F;view?utm_content=DAGAoQhT_Qs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Roadmap | Querido Diário</a> de Raissa Sousa e Ester Lino
+<a href="https://miro.com/app/board/uXjVOlm4vs8=/?moveToViewport=-470,-3363,6023,2733&embedId=592248376332" target="_blank" rel="noopener">Roadmap | Querido Diário</a> de Raissa Sousa e Ester Lino
 
 
 ## Histórico de Versão
