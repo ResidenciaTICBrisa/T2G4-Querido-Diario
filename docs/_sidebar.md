@@ -7,14 +7,11 @@
 - [Backlog do Produto](/visao_geral/backlog.md)
 - [Roadmap do Produto](/visao_geral/roadmap.md)
 
-<!--- [Dados Necessários](/visao_geral/dados_necessarios.md)-->
+**Ambiente**
 
+- [Configurando o ambiente](/ambiente/configuracao_ambiente.md)
 
 <!--**Produto**
-
-- [Backlog do Produto](/produto/backlog.md)
-- [Mínimo Produto Viável](/produto/mvp.md)
-- [Roadmap](/produto/roadmap.md)
 - [Protótipo Visual](/produto/prototipo-visual.md)-->
 
 **Equipe**
