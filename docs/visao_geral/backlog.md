@@ -4,17 +4,45 @@ Este documento mostra as funcionalidades propostas no projeto, descrevendo-as de
 
 ## Tabela de Funcionalidades
 
-| Épico |    Funcionalidade    |                 História de Usuário                |
-| :---: | :--------: | :--------------------------------------- |
-|  **(E1)** Downloads  | **(F1)**<br> Fazer download de excertos para arquivo .csv |      <p align="justify">**(US-1)** *Eu, como usuário, gostaria de selecionar os excertos que aparecem a partir da minha busca para fazer o download no Portal Educação.*     |
-|  |  |     <p align="justify">**(US-2)** *Eu, como jornalista, gostaria de selecionar os excertos que aparecem a partir da minha busca para fazer o download.*</p>   |
-|  | **(F2), (F3) e (F4)**<br> Fazer download de arquivos .txt agregados |      <p align="justify">**(US-3)** *Eu, como usuário, gostaria de baixar arquivos agregados de um período (ano) por localização (cidade e estado).</p>*     |
+<table>
+<thead>
+  <tr>
+    <th>Épicos</th>
+    <th>Funcionalidade</th>
+    <th>História de Usuário</th>
+    <th></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody class="features">
+  <tr>
+    <td rowspan="3"><strong>(E1)</strong> Downloads</td>
+    <td rowspan="2"><strong>(F1)</strong> Fazer o download de excertos para arquivo .csv</td>
+    <td><strong>(US-1)</strong> <i>Eu, como usuário, gostaria de selecionar os excertos que aparecem a partir da minha busca para fazer o download no Portal Educação.</i></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>(US-2)</strong> <i>Eu, como usuário, gostaria de selecionar os excertos que aparecem a partir da minha busca para fazer o download no Portal Educação.</i></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><strong>(F2)</strong>, <strong>(F3)</strong> e <strong>(F4)</strong> <i>Fazer download de arquivos .txt agregados</i></td>
+    <td><strong>(US-3)</strong> <i>Eu, como usuário, gostaria de baixar arquivos agregados de um período (ano) por localização (cidade e estado).</i></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
 
 
 ## Histórico de Versão
 
-| Versão |    Data    |                 Descrição                 |                                         Responsáveis                                         |                     Revisor                     |
-| :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
-|  1.0   | 04/04/2024 |      Criação da página "Backlog do Produto"       |    [Cristian Furtado](https://github.com/csafurtado) e [Pedro Cabeceira](https://github.com/pkbceira03)     |    [Wildemberg Sales](https://github.com/wildemberg-sales)   |
-|  1.1   | 04/04/2024 |      Correção de US's do artefato       |    [Wildemberg Sales](https://github.com/wildemberg-sales)    |   [Cristian Furtado](https://github.com/csafurtado)   |
-|  1.2   | 08/04/2024 |      Correção de US's      |   [Ester Lino](https://github.com/esteerlino), [Wildemberg Sales](https://github.com/wildemberg-sales)    |   [Cristian Furtado](https://github.com/csafurtado)   |
+| Versão |    Data    |               Descrição                |                                             Responsáveis                                             |                         Revisor                         |
+| :----: | :--------: | :------------------------------------: | :--------------------------------------------------------------------------------------------------: | :-----------------------------------------------------: |
+|  1.0   | 04/04/2024 | Criação da página "Backlog do Produto" | [Cristian Furtado](https://github.com/csafurtado) e [Pedro Cabeceira](https://github.com/pkbceira03) | [Wildemberg Sales](https://github.com/wildemberg-sales) |
+|  1.1   | 04/04/2024 |      Correção de US's do artefato      |                       [Wildemberg Sales](https://github.com/wildemberg-sales)                        |    [Cristian Furtado](https://github.com/csafurtado)    |
+|  1.2   | 08/04/2024 |            Correção de US's            | [Ester Lino](https://github.com/esteerlino), [Wildemberg Sales](https://github.com/wildemberg-sales) |    [Cristian Furtado](https://github.com/csafurtado)    |
+|  1.3   | 08/04/2024 |       Altera estrutura da tabela       |                    [Arthur Ferreira](https://github.com/ArthurFerreiraRodrigues)                     | [Wildemberg Sales](https://github.com/wildemberg-sales) |
