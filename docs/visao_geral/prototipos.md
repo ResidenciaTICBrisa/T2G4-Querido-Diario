@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Durante o projeto do Querido Diário serão desenvolvidos protótipos para visualização das interfaces que serão desenvolvidas pela equipe.
+Para o desenvolvimento das features do Querido Diário, serão necessárias alterações nas interfaces do produto. Para validar as alterações de layout, serão desenvolvidos protótipos de alta fidelidade que serão apresentados para os stakeholders. Segue abaixo os protótipos desenvolvidos para a tela de busca do Querido Diário:
 
 ### Protótipos para as telas de busca do Querido Diário
 
@@ -12,6 +12,7 @@ Durante o projeto do Querido Diário serão desenvolvidos protótipos para visua
 
 ## Histórico de Versão
 
-| Versão |    Data    |                 Descrição                 |                                         Responsáveis                                         |                     Revisor                     |
-| :----: | :--------: | :---------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------------------------------------: |
-|  1.0   | 04/04/2024 |      Criação da página "Roadmap do Produto"       |    [Ester Lino](https://github.com/esteerlino)    |    [Raissa Oliveira](https://github.com/raissamsoliveira)    |
+| Versão |    Data    |               Descrição                |                         Responsáveis                          |                        Revisor                         |
+| :----: | :--------: | :------------------------------------: | :-----------------------------------------------------------: | :----------------------------------------------------: |
+|  1.0   | 04/04/2024 | Criação da página "Roadmap do Produto" |          [Ester Lino](https://github.com/esteerlino)          | [Raissa Oliveira](https://github.com/raissamsoliveira) |
+|  1.1   | 08/04/2024 |          Revisão do pré-texto          | [Arthur Ferreira](https://github.com/ArthurFerreiraRodrigues) | [Raissa Oliveira](https://github.com/raissamsoliveira) |
