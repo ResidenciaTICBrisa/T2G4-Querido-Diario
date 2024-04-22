@@ -32,24 +32,30 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________
 
 
-### **Jornada do Dado na funcionalidade F1**
+### **Jornada do Dado da história de usuário 1 e 2**
 
-<p>A funcionalidade 1 trabalha a área do front-end, onde será necessário manipular dados que aparecem na página após o resultado de uma pesquisa, seja ela a página do Querido Diário Geral ou do Querido Diário Educação, transformando-os em arquivos .csv para download. A figura abaixo descreve melhor dentro da arquitetura geral do projeto a área de influência da funcionalidade.</p>
+<p>As Us1 e Us2 trabalham a área do front-end, onde será necessário manipular dados que aparecem na página após o resultado de uma pesquisa, seja ela a página do Querido Diário Geral ou do Querido Diário Educação, transformando-os em arquivos .csv para download. A figura abaixo descreve melhor dentro da arquitetura geral do projeto a área de influência da funcionalidade.</p>
 <p>Para esta funcionalidade também foi criado um <a href="https://www.figma.com/file/PTRrSgLiz6DOlkYwA3Tt6Q/Prot%C3%B3tipo-para-a-p%C3%A1gina-%22Tecnologia-na-Educa%C3%A7%C3%A3o%22?type=design&node-id=0%3A1&mode=design&t=86esN6klke9ftwbL-1">protótipo no Figma</a> para a visualização da página, com a participação do cliente.</p>
 
 
 <img src="./imagens/Fluxo-Us1-Us2.png"/>
-<h5 style="text-align: center; margin: 0 auto">Figura 2: Fluxo de dados da funcionalidade 1</h5>
+<h5 style="text-align: center; margin: 0 auto">Figura 2: Fluxo de dados da Us1 e Us2</h5>
 
 
+
+
+### **Jornada do Dado da história de usuário 3**
+
+<p>A Us3 trabalha em várias áreas do sistema, abrangendo o front-end, o dataprocess, a API e o banco de dados. Além disso, será desenvolvida uma nova área de trabalho (que está destacada em verde) dedicada à compactação de arquivos. O objetivo principal dessa funcionalidade é agregar os arquivos dos diários oficiais de cada ano, por exemplo, consolidando todos os diários de um ano em um único arquivo. Posteriormente, esses arquivos estarão disponíveis para os usuários através de uma pesquisa por município e ano, permitindo que eles os baixem conforme necessário.</p>
 
 <!-- 
 
-### **Jornada do Dado na fucionalidade F2**
-
-inserir o fluxo de dados da funcionalidade F@
+Colocar o protótipo do figma aqui
 
 -->
+
+<img src="../imagens/Fluxo-us3.png"/>
+<h5 style="text-align: center; margin: 0 auto">Figura 3: Fluxo de dados da Us3</h5>
 
 
 ## Histórico de Versão
@@ -60,3 +66,4 @@ inserir o fluxo de dados da funcionalidade F@
 |  1.1   | 04/04/2024 |  Adicionando o fluxo de dados da funcionalidade F1 e legenda das figuras  | [Cristian Furtado](https://github.com/csafurtado) e [Pedro Cabeceira](https://github.com/pkbceira03) | [Wildemberg Sales](https://github.com/wildemberg-sales) |
 |  1.2   | 05/04/2024 | Adiciona informação e link sobre o protótipo do Figma da funcionalidade 1 |                          [Cristian Furtado](https://github.com/csafurtado)                           | [Raissa Oliveira](https://github.com/raissamsoliveira)  |
 |  1.3   | 08/04/2024 |                              Revisão textual                              |                    [Arthur Ferreira](https://github.com/ArthurFerreiraRodrigues)                     |                                                         |
+|  1.4  | 22/04/2024 | Atualizando a arquitetura e corrigindo alguns erros |  [Pedro Cabeceira](https://github.com/pkbceira03) e [Wildemberg Sales](https://github.com/wildemberg-sales)   |                                                         |
