@@ -92,32 +92,17 @@ python -m cli setup --pod-name querido-diario --migrate --superuser
 1. Aplique esse patch no repo querido-diario-frontend
 
 ```bash
-diff --git a/src/app/constants.ts b/src/app/constants.ts
-index 97c93b5..7e38851 100644
---- a/src/app/constants.ts 
-+++ b/src/app/constants.ts 
-@@ -1 +1 @@ 
--export const API = 'https://queridodiario.ok.org.br/api'; 
-\ No newline at end of file 
-+export const API = 'http://localhost:8080';
-diff --git a/src/app/services/gazette/gazette.service.ts b/src/app/services/gazette/gazette.service.ts 
-index 723f629..16948b2 100644 
---- a/src/app/services/gazette/gazette.service.ts 
-+++ b/src/app/services/gazette/gazette.service.ts 
-@@ -77,7 +77,7 @@ export class GazetteService { 
-    queryParams = { ...queryParams, size: pagination.size, offset: pagination.offset };
+./src/app/constants.ts 
+- export const API = 'https://queridodiario.ok.org.br/api'; 
++ export const API = 'http://localhost:8080';
 
-    const encodedQueryString = new URLSearchParams(queryParams).toString(); 
--  const url = new URL( `/api/gazettes?${encodedQueryString}${territoryQuery}` ,  `https://queridodiario.ok.org.br` ).toString(); 
-+  const url = new URL( `/gazettes?${encodedQueryString}${territoryQuery}` ,  `http://localhost:8080` ).toString(); 
-return this.http.get<GazetteResponse>(url).pipe( 
-    map((res: GazetteResponse) => { 
-diff --git a/src/app/services/utils/index.ts b/src/app/services/utils/index.ts index f952336..b6164c8 100644 
---- a/src/app/services/utils/index.ts 
-+++ b/src/app/services/utils/index.ts 
-@@ -1 +1 @@ 
--export const educationApi = 'https://backend-api.queridodiario.ok.org.br/api/'; 
-+export const educationApi = 'http://localhost:8000/api/'; 
+./src/app/services/gazette/gazette.service.ts 
+81 - const url = new URL( `/api/gazettes?${encodedQueryString}${territoryQuery}` ,  `https://queridodiario.ok.org.br` ).toString(); 
+81 + const url = new URL( `/gazettes?${encodedQueryString}${territoryQuery}` ,  `http://localhost:8080` ).toString(); 
+
+./src/app/services/utils/index.ts
+- export const educationApi = 'https://backend-api.queridodiario.ok.org.br/api/'; 
++ export const educationApi = 'http://localhost:8000/api/'; 
 ```
 
 2. Execute o ambiente de desenvolvimento de acordo com os passos descritos no README do repositório querido-diario-frontend.
