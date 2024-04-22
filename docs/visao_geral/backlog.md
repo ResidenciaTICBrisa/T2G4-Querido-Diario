@@ -29,7 +29,7 @@ Este documento mostra as funcionalidades propostas no projeto, descrevendo-as de
   </tr>
   <tr>
     <td rowspan="2"><strong>(Épico 02)</strong> Rotinas de Agregação</td>
-    <td><strong>(Feature 02), (Feature 03) e (Feature 03)<br></strong><i>Acessar arquivos agregados</i></td>
+    <td><strong>(Feature 02), (Feature 03) e (Feature 04)<br></strong><i>Acessar arquivos agregados</i></td>
     <td><strong>(US-3)</strong> <i>Eu, como usuário, gostaria de baixar arquivos agregados de um período (ano) por localização (cidade e estado).</i></td>
     <td></td>
     <td></td>
