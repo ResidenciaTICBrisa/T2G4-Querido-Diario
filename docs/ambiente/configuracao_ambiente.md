@@ -42,10 +42,10 @@ pip install --no-deps -r data\_collection/requirements-dev.txt
 sudo apt-get install pre-commit
 ```
 
-1. Execute um raspador no repo querido-diario, por exemplo
+1. No repo querido-diario, abra a pasta "data_collection" e execute um raspador, por exemplo
    
 ``` bash
-scrapy crawl rn_natal -a start_date=2024-03-01
+scrapy crawl sp_campinas -a start_date=2024-03-01
 ```
 
 1. Execute no repo querido-diario-data-processing
@@ -108,8 +108,8 @@ index 723f629..16948b2 100644
     queryParams = { ...queryParams, size: pagination.size, offset: pagination.offset };
 
     const encodedQueryString = new URLSearchParams(queryParams).toString(); 
--  const url = new URL( /api/gazettes?${encodedQueryString}${territoryQuery} ,  https://queridodiario.ok.org.br ).toString(); 
-+  const url = new URL( /gazettes?${encodedQueryString}${territoryQuery} ,  http://localhost:8080 ).toString(); 
+-  const url = new URL( `/api/gazettes?${encodedQueryString}${territoryQuery}` ,  `https://queridodiario.ok.org.br` ).toString(); 
++  const url = new URL( `/gazettes?${encodedQueryString}${territoryQuery}` ,  `http://localhost:8080` ).toString(); 
 return this.http.get<GazetteResponse>(url).pipe( 
     map((res: GazetteResponse) => { 
 diff --git a/src/app/services/utils/index.ts b/src/app/services/utils/index.ts index f952336..b6164c8 100644 

@@ -54,7 +54,7 @@ Colocar o protótipo do figma aqui
 
 -->
 
-<img src="../imagens/Fluxo-us3.png"/>
+<img src="./imagens/Fluxo-us3.png"/>
 <h5 style="text-align: center; margin: 0 auto">Figura 3: Fluxo de dados da Us3</h5>
 
 
