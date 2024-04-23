@@ -10,8 +10,17 @@
 * Organização da documentação do projeto;
 * Organização do Projects no Github.
 
+## Backlog da Sprint
+
+## Outras atividades
+
+## Duplas/Pareamento
+
+## Retrospectiva da sprint 
+
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | ------- |--------|-------------|--------------|---------------|
 | 1.0 | 06/03/2024 | Criação da estrutura do documento | [Ester Lino](https://github.com/esteerlino)  | [Wildemberg Sales](https://github.com/wildemberg-sales) |
+|  1.1   | 23/04/2024  | Atualização do documento | [Ester Lino](https://github.com/esteerlino)                           |    [Raissa Oliveira](https://github.com/raissamsoliveira) |
