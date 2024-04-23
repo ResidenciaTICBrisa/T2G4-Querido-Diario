@@ -9,7 +9,7 @@ O QD usa podman para sua infra. Para criar um ambiente onde todos os containers 
 
 1. Execute  
 
-```bash
+``` bash
 make build
 ```
 
@@ -19,10 +19,23 @@ make build
 ``` bash
 make setup
 ```
+### **Observação**
 
-4. Para resolver o problema com o Apache Tike, execute os comandos abaixo:
+Ao executar o comando "make setup" pode ser que apareça o erro a seguir:
+
+<img src="./imagens/Erro_porta8000.jpeg"/>
+<h5 style="text-align: center; margin: 0 auto">Figura 1: Erro com a porta 8000</h5>
+
+Nesse caso, a alternativa que foi encontrada para solucionar é executar o comando a seguir, o qual irá derrubar porta 8000.
+
+``` bash
+sudo kill -9 `sudo lsof -t -i:8000`
+```
+**Após a execução desse comando, executar novamente o "passo 3".**
+
+4. Para resolver o problema com o Apache Tika, execute os comandos abaixo:
    
-```bash
+``` bash
 podman image rm --force localhost/okfn-brasil/querido-diario-apache-tika-server 
 podman pull ghcr.io/okfn-brasil/querido-diario-apache-tika-server:latest 
 make apache-tika-server
@@ -141,3 +154,4 @@ Algumas maneiras úteis de usar o ambiente de desenvolvimento:
 | :----: | :--------: | :-------------------------------: | :---------------------------------------------------------------------: | :----------------------------------------------------: |
 |  1.0   | 08/04/2024 | Criação da estrutura do documento |               [Ester Lino](https://github.com/esteerlino)               | [Raissa Oliveira](https://github.com/raissamsoliveira) |
 |  1.1   | 08/04/2024 |       Revisão para release        | [Arthur Ferreira Rodrigues](https://github.com/ArthurFerreiraRodrigues) |      [Ester Lino](https://github.com/esteerlino)       |
+|  1.2   | 23/04/2024 | Atualização do documento e inclusão do erro com a porta 8000 |               [Ester Lino](https://github.com/esteerlino)               | [Raissa Oliveira](https://github.com/raissamsoliveira) |
