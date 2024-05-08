@@ -1,7 +1,7 @@
 # Sprint 02
 
-- Data de início: 03/02/2024
-- Data de término: 09/02/2024
+- Data de início: 03/03/2024
+- Data de término: 09/03/2024
 
 ## Objetivos da sprint
 * Estudo da documentação do [Querido Diário](https://queridodiario.ok.org.br/);

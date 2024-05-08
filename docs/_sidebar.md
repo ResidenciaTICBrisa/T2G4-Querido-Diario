@@ -22,6 +22,8 @@
     - [Sprint 03](/equipe/sprints/sprint3.md)
     - [Sprint 04](/equipe/sprints/sprint4.md)
     - [Sprint 05](/equipe/sprints/sprint5.md)
+    - [Sprint 06](/equipe/sprints/sprint6.md)
+    - [Sprint 07](/equipe/sprints/sprint7.md)
 - [Reuniões](/equipe/reunioes/atas.md)
     - [Ata 01](/equipe/reunioes/ata1.md)
     - [Ata 02](/equipe/reunioes/ata2.md)
