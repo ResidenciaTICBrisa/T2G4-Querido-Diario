@@ -1,11 +1,11 @@
 # Sprint 07
 
-- Data de início: 21/04/2024
-- Data de término: 04/05/2024
+- Data de início: 05/04/2024
+- Data de término: 18/05/2024
 
 ## Objetivos da sprint
-* Correções das modificações solicitadas pelo cliente para as US 1 e 2.
-* Início da história de usuário 03.
+* Continuação das correções das modificações solicitadas pelo cliente para as US 1 e 2.
+* Desenvolvimento da história de usuário 03.
 
 ## Backlog da Sprint
 |**US**|**Responsáveis**|
@@ -33,4 +33,4 @@
 
 | Versão |    Data    |   Descrição   |       Responsáveis        |                     Revisor                     |
 | :----: | :--------: | :-----------: | :-----------------------: | :---------------------------------------------: |
-|  1.0   | 08/04/2024  | Adicionando documento da Sprint 7 | [Ester Lino](https://github.com/esteerlino)                           |    [Raissa Oliveira](https://github.com/raissamsoliveira) |
+|  1.0   | 22/05/2024  | Adicionando documento da Sprint 8 | [Ester Lino](https://github.com/esteerlino)                           |    [Raissa Oliveira](https://github.com/raissamsoliveira) |
