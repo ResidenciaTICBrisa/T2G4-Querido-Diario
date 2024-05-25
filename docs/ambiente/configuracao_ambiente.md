@@ -7,6 +7,12 @@ O QD usa podman para sua infra. Para criar um ambiente onde todos os containers 
 
 ## Repositório do querido-diario-data-processing
 
+0. Instalar o pacote do podman (caso não esteja instalado)
+
+```bash
+sudo apt install podman
+```
+
 1. Execute  
 
 ``` bash
@@ -14,7 +20,15 @@ make build
 ```
 
 2. No Makefile, mude a variável FULL_PROJECT para `true`
-3. Execute
+
+3. Para resolver o problema com o Apache Tika (caso seja a primeira instalção do projeto na máquina local), execute os comandos abaixo: 
+``` bash
+podman image rm --force localhost/okfn-brasil/querido-diario-apache-tika-server 
+podman pull ghcr.io/okfn-brasil/querido-diario-apache-tika-server:latest 
+make apache-tika-server
+```
+
+4. Execute
 
 ``` bash
 make setup
@@ -31,37 +45,31 @@ Nesse caso, a alternativa que foi encontrada para solucionar é executar o coman
 ``` bash
 sudo kill -9 `sudo lsof -t -i:8000`
 ```
-**Após a execução desse comando, executar novamente o "passo 3".**
+**Após a execução desse comando, executar novamente o "passo 4".**
 
-4. Para resolver o problema com o Apache Tika, execute os comandos abaixo:
-   
-``` bash
-podman image rm --force localhost/okfn-brasil/querido-diario-apache-tika-server 
-podman pull ghcr.io/okfn-brasil/querido-diario-apache-tika-server:latest 
-make apache-tika-server
-```
 
 #### Agora o pod foi criado, assim como vários recursos como Opensearch, Postgres e Minio. Porém, eles ainda estão vazios. Vamos populá-los.
 
 ## Repositório do querido-diario (raspadores)
 
 1. Copie local.env do repo querido-diario para .env 
+
 2. Configure o ambiente de desenvolvimento do repo querido-diario
    
 ``` bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install --no-deps -r data\_collection/requirements-dev.txt
 sudo apt-get install pre-commit
+pip install --no-deps -r data\_collection/requirements-dev.txt
 ```
 
-1. No repo querido-diario, abra a pasta "data_collection" e execute um raspador, por exemplo
+3. No repo querido-diario, abra a pasta "data_collection" e execute um raspador, por exemplo
    
 ``` bash
 scrapy crawl sp_campinas -a start_date=2024-03-01
 ```
 
-1. Execute no repo querido-diario-data-processing
+4. Execute no repo querido-diario-data-processing
    
 ``` bash
 make re-run
@@ -77,7 +85,7 @@ make re-run
 make build
 ``` 
 
-1. Execute 
+2. Execute 
    
 ``` bash
 make re-run
@@ -96,11 +104,22 @@ pip install -r requirements-dev.txt
 python -m cli setup --pod-name querido-diario --migrate --superuser 
 ```
 
-1. Faça o cadastro do superuser como pedido.
+2. Faça o cadastro do superuser como pedido.
 
 #### Com o backend disponível, o frontend que usa API e backend locais também pode ser configurado.
 
 ## Repositório do querido-diario-frontend
+
+0. Instalar o pacote nvm (gerenciador de versões do node.js) e o yarn (gerenciador de pacotes do node) para instalar as dependências do projeto
+```bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh
+source ~/.bashrc        # para aplicar o script de instalação do nvm ao bash
+
+nvm install v16.2.0
+npm install --global yarn
+cd <raiz_do_repo_frontend>
+yarn
+``` 
 
 1. Aplique esse patch no repo querido-diario-frontend
 
@@ -155,3 +174,4 @@ Algumas maneiras úteis de usar o ambiente de desenvolvimento:
 |  1.0   | 08/04/2024 | Criação da estrutura do documento |               [Ester Lino](https://github.com/esteerlino)               | [Raissa Oliveira](https://github.com/raissamsoliveira) |
 |  1.1   | 08/04/2024 |       Revisão para release        | [Arthur Ferreira Rodrigues](https://github.com/ArthurFerreiraRodrigues) |      [Ester Lino](https://github.com/esteerlino)       |
 |  1.2   | 23/04/2024 | Atualização do documento e inclusão do erro com a porta 8000 |               [Ester Lino](https://github.com/esteerlino)               | [Raissa Oliveira](https://github.com/raissamsoliveira) |
+|  1.3   | 25/05/2024 | Atualização do documento incluindo detalhes do podman, apache tika, ordem dos comandos no raspador e comando para instalar o nvm |               [Cristian Furtado](https://github.com/csafurtado)               | [Ester Lino](https://github.com/esteerlino) |
