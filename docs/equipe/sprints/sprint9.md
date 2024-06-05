@@ -1,10 +1,11 @@
-# Sprint 08
+# Sprint 09
 
-- Data de início: 05/04/2024
-- Data de término: 18/05/2024
+- Data de início: 19/05/2024
+- Data de término: 01/06/2024
 
 ## Objetivos da sprint
 * Continuação das correções das modificações solicitadas pelo cliente para as US 1 e 2.
+* A issue 28 foi concluída, mas ainda aguarda revisão do cliente para aprovação.
 * Desenvolvimento da história de usuário 03.
 
 ## Backlog da Sprint
@@ -33,4 +34,4 @@
 
 | Versão |    Data    |   Descrição   |       Responsáveis        |                     Revisor                     |
 | :----: | :--------: | :-----------: | :-----------------------: | :---------------------------------------------: |
-|  1.0   | 22/05/2024  | Adicionando documento da Sprint 8 | [Ester Lino](https://github.com/esteerlino)                           |    [Raissa Oliveira](https://github.com/raissamsoliveira) |
+|  1.0   | 05/06/2024  | Adicionando documento da Sprint 8 | [Ester Lino](https://github.com/esteerlino)                           |    [Raissa Oliveira](https://github.com/raissamsoliveira) |
