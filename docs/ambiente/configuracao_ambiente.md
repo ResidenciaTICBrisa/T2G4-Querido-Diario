@@ -13,27 +13,20 @@ O QD usa podman para sua infra. Para criar um ambiente onde todos os containers 
 sudo apt install podman
 ```
 
-1. Execute  
+1. No Makefile, mude a variável FULL_PROJECT para `true`
+
+2. Execute  
 
 ``` bash
 make build
 ```
 
-2. No Makefile, mude a variável FULL_PROJECT para `true`
-
-3. Para resolver o problema com o Apache Tika (caso seja a primeira instalção do projeto na máquina local), execute os comandos abaixo: 
-``` bash
-podman image rm --force localhost/okfn-brasil/querido-diario-apache-tika-server 
-podman pull ghcr.io/okfn-brasil/querido-diario-apache-tika-server:latest 
-make apache-tika-server
-```
-
-4. Execute
+3. Execute
 
 ``` bash
 make setup
-```
-### **Observação**
+
+## **Observação**
 
 Ao executar o comando "make setup" pode ser que apareça o erro a seguir:
 
@@ -45,8 +38,16 @@ Nesse caso, a alternativa que foi encontrada para solucionar é executar o coman
 ``` bash
 sudo kill -9 `sudo lsof -t -i:8000`
 ```
-**Após a execução desse comando, executar novamente o "passo 4".**
+**Após a execução desse comando, executar novamente o "passo 3".**
 
+4. Para resolver o problema com o Apache Tika (caso seja a primeira instalção do projeto na máquina local), execute os comandos abaixo: 
+``` bash
+podman image rm --force localhost/okfn-brasil/querido-diario-apache-tika-server 
+podman pull ghcr.io/okfn-brasil/querido-diario-apache-tika-server:latest 
+make apache-tika-server
+```
+
+```
 
 #### Agora o pod foi criado, assim como vários recursos como Opensearch, Postgres e Minio. Porém, eles ainda estão vazios. Vamos populá-los.
 
@@ -175,3 +176,4 @@ Algumas maneiras úteis de usar o ambiente de desenvolvimento:
 |  1.1   | 08/04/2024 |       Revisão para release        | [Arthur Ferreira Rodrigues](https://github.com/ArthurFerreiraRodrigues) |      [Ester Lino](https://github.com/esteerlino)       |
 |  1.2   | 23/04/2024 | Atualização do documento e inclusão do erro com a porta 8000 |               [Ester Lino](https://github.com/esteerlino)               | [Raissa Oliveira](https://github.com/raissamsoliveira) |
 |  1.3   | 25/05/2024 | Atualização do documento incluindo detalhes do podman, apache tika, ordem dos comandos no raspador e comando para instalar o nvm |               [Cristian Furtado](https://github.com/csafurtado)               | [Ester Lino](https://github.com/esteerlino) |
+|  1.4   | 26/06/2024 | Conserto da ordem de execução dos comandos do data-processing |               [Cristian Furtado](https://github.com/csafurtado)               | [Ester Lino](https://github.com/esteerlino) |
