@@ -31,6 +31,7 @@
     - [Ata 02](/equipe/reunioes/ata2.md)
     - [Ata 03](/equipe/reunioes/ata3.md)
     - [Ata 04](/equipe/reunioes/ata4.md)
+- [Landing Page](/docs/T2G4-Querido-Diario/docs/equipe/landingPage.html)
 
 <!--**Tópico Auxiliar**
 
