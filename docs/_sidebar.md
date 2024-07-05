@@ -26,11 +26,15 @@
     - [Sprint 07](/equipe/sprints/sprint7.md)
     - [Sprint 08](/equipe/sprints/sprint8.md)
     - [Sprint 09](/equipe/sprints/sprint9.md)
+    - [Sprint 10](/equipe/sprints/sprint10.md)
+    - [Sprint 11](/equipe/sprints/sprint11.md)
+    - [Sprint 12](/equipe/sprints/sprint12.md)
 - [Reuniões](/equipe/reunioes/atas.md)
     - [Ata 01](/equipe/reunioes/ata1.md)
     - [Ata 02](/equipe/reunioes/ata2.md)
     - [Ata 03](/equipe/reunioes/ata3.md)
     - [Ata 04](/equipe/reunioes/ata4.md)
+    - [Ata 05](/equipe/reunioes/ata5.md)
 - [Landing Page](/docs/T2G4-Querido-Diario/docs/equipe/landingPage.html)
 
 <!--**Tópico Auxiliar**

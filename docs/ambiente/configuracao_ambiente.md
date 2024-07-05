@@ -47,11 +47,10 @@ podman pull ghcr.io/okfn-brasil/querido-diario-apache-tika-server:latest
 make apache-tika-server
 ```
 
-```
-
 #### Agora o pod foi criado, assim como vários recursos como Opensearch, Postgres e Minio. Porém, eles ainda estão vazios. Vamos populá-los.
 
-## Repositório do querido-diario (raspadores)
+
+## Repositório do querido-diario
 
 1. Copie local.env do repo querido-diario para .env 
 
@@ -115,11 +114,6 @@ python -m cli setup --pod-name querido-diario --migrate --superuser
 ```bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh
 source ~/.bashrc        # para aplicar o script de instalação do nvm ao bash
-
-nvm install v16.2.0
-npm install --global yarn
-cd <raiz_do_repo_frontend>
-yarn
 ``` 
 
 1. Aplique esse patch no repo querido-diario-frontend
@@ -139,6 +133,18 @@ yarn
 ```
 
 2. Execute o ambiente de desenvolvimento de acordo com os passos descritos no README do repositório querido-diario-frontend.
+
+``` bash
+nvm install v16.2.0
+npm install --global yarn
+yarn
+``` 
+Com o terminal aberto no diretório raíz do repositório, o projeto pode ser servido localmente com o comando:
+
+``` bash
+yarn ng serve
+``` 
+
 
 Pronto! Agora o ambiente está todo configurado.
 
@@ -177,3 +183,4 @@ Algumas maneiras úteis de usar o ambiente de desenvolvimento:
 |  1.2   | 23/04/2024 | Atualização do documento e inclusão do erro com a porta 8000 |               [Ester Lino](https://github.com/esteerlino)               | [Raissa Oliveira](https://github.com/raissamsoliveira) |
 |  1.3   | 25/05/2024 | Atualização do documento incluindo detalhes do podman, apache tika, ordem dos comandos no raspador e comando para instalar o nvm |               [Cristian Furtado](https://github.com/csafurtado)               | [Ester Lino](https://github.com/esteerlino) |
 |  1.4   | 26/06/2024 | Conserto da ordem de execução dos comandos do data-processing |               [Cristian Furtado](https://github.com/csafurtado)               | [Ester Lino](https://github.com/esteerlino) |
+|  1.5   | 05/07/2024 | Ajuste de erros no documento e correção da ordem de execução dos comandos do front-end |               [Raissa Oliveira](https://github.com/raissamsoliveira)          | [Ester Lino](https://github.com/esteerlino) |
