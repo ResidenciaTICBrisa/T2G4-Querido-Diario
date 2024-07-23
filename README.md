@@ -12,6 +12,7 @@ A seguir temos a lista de repositórios utilizados pelo time de desenvolvimento 
 * [API](https://github.com/Wildemberg-Projects/querido-diario-api)
 * [Data Processing](https://github.com/Wildemberg-Projects/querido-diario-data-processing)
 * [Raspadores](https://github.com/okfn-brasil/querido-diario)
+* [Landing Page](https://wildemberg-projects.github.io/LP-Querido-Diario/)
 
 ## Contribuidores
 
