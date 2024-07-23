@@ -36,7 +36,7 @@
     - [Ata 03](/equipe/reunioes/ata3.md)
     - [Ata 04](/equipe/reunioes/ata4.md)
     - [Ata 05](/equipe/reunioes/ata5.md)
-- [Landing Page](/docs/T2G4-Querido-Diario/docs/equipe/landingPage.html)
+- [Landing Page](https://wildemberg-projects.github.io/LP-Querido-Diario/)
 
 <!--**Tópico Auxiliar**
 
