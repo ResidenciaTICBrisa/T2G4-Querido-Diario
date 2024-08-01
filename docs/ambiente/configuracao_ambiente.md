@@ -25,6 +25,7 @@ make build
 
 ``` bash
 make setup
+```
 
 ## **Observação**
 
@@ -184,3 +185,4 @@ Algumas maneiras úteis de usar o ambiente de desenvolvimento:
 |  1.3   | 25/05/2024 | Atualização do documento incluindo detalhes do podman, apache tika, ordem dos comandos no raspador e comando para instalar o nvm |               [Cristian Furtado](https://github.com/csafurtado)               | [Ester Lino](https://github.com/esteerlino) |
 |  1.4   | 26/06/2024 | Conserto da ordem de execução dos comandos do data-processing |               [Cristian Furtado](https://github.com/csafurtado)               | [Ester Lino](https://github.com/esteerlino) |
 |  1.5   | 05/07/2024 | Ajuste de erros no documento e correção da ordem de execução dos comandos do front-end |               [Raissa Oliveira](https://github.com/raissamsoliveira)          | [Ester Lino](https://github.com/esteerlino) |
+|  1.6   | 01/08/2024 | Ajuste de erros no documento |               [Raissa Oliveira](https://github.com/raissamsoliveira)          | [Ester Lino](https://github.com/esteerlino) |
